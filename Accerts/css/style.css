@@ -1,0 +1,30 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background: #01FF78; background: linear-gradient(225deg, #01FF78, #4A28F0); */
+    /* background: linear-gradient(45deg, #01FF78, #4A28F0); */
+    background: #10E8F3; background: linear-gradient(225deg, #10E8F3, #2C01FF);
+}
+
+
+
+.menu{
+    display: flex;
+    gap: 100px;
+    border: black;
+}
+
+.menu-list:hover{
+    background-color: rgb(213, 213, 213);
+}
+
+.menu-list{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:larger ;
+}
